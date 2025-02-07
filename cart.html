@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Кошик</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./img/Logo.webp">
+            <ul class="nav-menu">
+                <li>
+                    <a href="./index.html" class="nav-menu-item">Магазин</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-menu-item">Контакти</a>
+                </li>
+            </ul>
+            <a href="" class="count-link">
+                <img src="./img/Shop.png">
+                <div class="cart-count">0</div>
+            </a>  
+        </nav>
+    </header>
+
+    <main>
+        <div class="cart-items"></div>
+        <div class="total-block">
+        <button id="clear-cart">Очистити кошик</button>
+        <p>Загальна сума: $ <span id="total-price">0</span></p>
+        </div>
+    </main>
+
+    <footer id="contact">
+        <img src="./img/Logo.webp">
+        <p>Компʼютерний магазин</p>
+        <a href="tel:+380981016384">+380 98 101 6384</a>
+    </footer>
+    <script src="./cart.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

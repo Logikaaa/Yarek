@@ -11,21 +11,136 @@
             <img src="./img/Logo.webp">
             <ul class="nav-menu">
                 <li>
-                    <a href="" class="nav-menu-item">Магазин</a>
+                    <a href="#shop" class="nav-menu-item">Магазин</a>
                 </li>
                 <li>
-                    <a href="" class="nav-menu-item">Контакти</a>
+                    <a href="#contact" class="nav-menu-item">Контакти</a>
                 </li>
             </ul>
-            <a href="" class="count-link">
+            <a href="./cart.html" class="count-link">
                 <img src="./img/Shop.png">
-                <div class="count">0</div>
-            </a>
-                
-            
+                <div class="cart-count">0</div>
+            </a>  
         </nav>
+        <div class="hero">
+            <div class="hero-container">
+            <h2>Нова колекція</h2>
+            <h1>Відкрийтк для себе<br>найкращу техніку</h1>
+            <a href="#shop" class="shop-btn">Магазин</a>
+            </div>
+        </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="section-container">
+            <img src="./img/img-mac.avif" class="section-img">
+            <div>
+            <p class="section-subtitle">Рекомендовані аксесуари Mac</p>
+            <h3 class="section-title">Зробіть ідеальне <br>підключення</h3>
+            <p class="section-text">Розпродаж до 50%!</p>
+            <a href="#shop" class="shop-btn">Магазин</a>
+            </div>
+        </section>
+
+        <section id="shop">
+            <h3 class="title">Магазин</h3>
+            <div class="products">
+                <div class="product" data-name="Годинник S2 Silver" data-price="20" data-image="./img/watch1.webp">
+                    <img src="./img/watch1.webp" width="200" height="245">
+                    <p class="product-title">Годинник S2 Silver</p>
+                    <div class="product-price">
+                    <p class="price">$ 20</p>
+                    <button class="add-to-cart">
+                        <img src="./img/shop-white.png">
+                    </button>
+                    </div>
+                </div>
+
+                <div class="product" data-name="Безтротові наушники" data-price="200" data-image="./img/listen1.webp">
+                    <img src="./img/listen1.webp" width="200">
+                    <p class="product-title">Безтротові наушники</p>
+                    <div class="product-price">
+                    <p class="price">$ 200</p>
+                    <button class="add-to-cart">
+                        <img src="./img/shop-white.png">
+                    </button>
+                    </div>
+                </div>
+
+                <div class="product" data-name="Годинник White" data-price="200" data-image="./img/watch2.webp">
+                    <img src="./img/watch2.webp" width="200">
+                    <p class="product-title">Годинник White</p>
+                    <div class="product-price">
+                    <p class="price">$ 200</p>
+                    <button class="add-to-cart">
+                        <img src="./img/shop-white.png">
+                    </button>
+                    </div>
+                </div>
+
+                <div class="product" data-name="Навушники" data-price="200" data-image="./img/listen2.webp">
+                    <img src="./img/listen2.webp" width="200">
+                    <p class="product-title">Навушники</p>
+                    <div class="product-price">
+                    <p class="price">$ 200</p>
+                    <button class="add-to-cart">
+                        <img src="./img/shop-white.png">
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="product" data-name="Годинник Yellow" data-price="180" data-image="./img/watch3.webp">
+                    <img src="./img/watch3.webp" width="200" height="200">
+                    <p class="product-title">Годинник Yellow</p>
+                    <div class="product-price">
+                    <p class="price">$ 180</p>
+                    <button class="add-to-cart">
+                        <img src="./img/shop-white.png">
+                    </button>
+                    </div>
+                </div>
+
+                <div class="product" data-name="Boost Up Special Edition Wireles" data-price="260" data-image="./img/adaptor1.webp">
+                    <img src="./img/adaptor1.webp" width="200">
+                    <p class="product-title">Boost Up Special Edition Wireles</p>
+                    <div class="product-price">
+                    <p class="price">$ 260</p>
+                    <button class="add-to-cart">
+                        <img src="./img/shop-white.png">
+                    </button>
+                    </div>
+                </div>
+
+                <div class="product" data-name="Шумопоглинауі навушники" data-price="90" data-image="./img/listen3.webp">
+                    <img src="./img/listen3.webp" width="200">
+                    <p class="product-title">Шумопоглинауі навушники</p>
+                    <div class="product-price">
+                    <p class="price">$ 90</p>
+                    <button class="add-to-cart">
+                        <img src="./img/shop-white.png">
+                    </button>
+                    </div>
+                </div>
+
+                <div class="product" data-name="Док-станція" data-price="200" data-image="./img/adaptor2.webp">
+                    <img src="./img/adaptor2.webp" width="200">
+                    <p class="product-title">Док-станція</p>
+                    <div class="product-price">
+                    <p class="price">$ 200</p>
+                    <button class="add-to-cart">
+                        <img src="./img/shop-white.png">
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <img src="./img/Logo.webp">
+        <p>Компʼютерний магазин</p>
+        <a href="tel:+380981016384">+380 98 101 6384</a>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
